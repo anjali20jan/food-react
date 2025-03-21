@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+ .main-container{
+    height: 100vh;
+ }
+
+
+.contact-body{
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    /* height: calc(100vh - 72); */
+   flex-direction: column;
+
+    /* border: 2px solid black; */
+
+}
+
+.contact-body h1{
+    font-size: 40px;
+    font-weight:600;
+    /* margin: 10px 0; */
+    
+   
+
+}
+.contact-body p{
+    font-size: 15px;
+    font-weight:400;
+    color: grey;
+    width: 1000px;
+
+}

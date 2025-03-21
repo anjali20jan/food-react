@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    margin-top: 40px;
+}
+
+.btn {
+    display: flex;
+    gap: 32px;
+   
+}
+.btn3{
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.form{
+    display: flex;
+    position: relative;
+    gap: 20px;
+    flex-direction: column;
+    width: 100%;
+   
+
+}
+form{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form input{
+    height: 40px;
+    
+
+}
+
+
+.form label{
+    position: absolute;
+    /* z-index: 1; */
+
+    top: -12px;
+    left: 10px;
+    background: white;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.container img{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
